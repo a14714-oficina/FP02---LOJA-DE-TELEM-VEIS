@@ -1,89 +1,54 @@
-📱 Projeto: Space Mobile — Empresa de Reparação de Telemóveis 🔧
-🇵🇹 Descrição
+# 💻 Projeto: Space Mobile — Empresa de Reparação de Telemóveis 🔧
 
-O Space Mobile é um website fictício desenvolvido com HTML5 e CSS3, que representa uma empresa especializada em reparação e manutenção de telemóveis.
-O principal objetivo é simular um site profissional com design moderno e informativo, apresentando os serviços, contactos e missão da empresa.
+## 🇵🇹 Descrição
+O **Space Mobile** é um website fictício de uma empresa de reparação e manutenção de telemóveis, desenvolvido com **HTML5** e **CSS3**.  
+O objetivo é simular um site profissional que apresenta os serviços, contactos e informações sobre a empresa, com um design moderno, limpo e totalmente responsivo.
 
-🇵🇹 Processo de Criação
+## 🇵🇹 Processo de Criação
+O site foi criado para praticar a criação e estruturação de websites, com foco em:
 
-O site foi desenvolvido no contexto escolar com o intuito de praticar:
+- Estrutura semântica e organização de páginas web  
+- Navegação simples entre secções e páginas  
+- Layout adaptável a diferentes tamanhos de ecrã  
+- Utilização de HTML5 e CSS3 para criar um design moderno  
+- Desenvolvimento de uma identidade visual voltada para tecnologia e reparações móveis
 
-Estruturação semântica de páginas HTML.
+## 🇵🇹 Funcionalidades
+- 🌐 **Navegação**: Início, Serviços, Sobre e Contactos  
+- 🛠️ **Serviços**: Apresentação dos principais serviços de reparação e manutenção de telemóveis  
+- ℹ️ **Sobre**: Descrição da empresa e dos seus valores  
+- ✉️ **Contactos**: Página com informações de contacto da empresa  
+- 💻 Layout **responsivo** e funcional, compatível com todos os dispositivos
 
-Organização de conteúdos em secções (Início, Serviços, Sobre, Contactos).
+## 🇵🇹 Demonstração
+O website pode ser visualizado online clicando neste link:  
+🌐 **[Ver Space Mobile Online](#)**
 
-Aplicação de estilos e layout com CSS3.
+---
 
-Desenvolvimento de um design responsivo e coerente.
+# 🇬🇧 Description
+**Space Mobile** is a fictional website for a mobile phone repair company, built using **HTML5** and **CSS3**.  
+The goal is to simulate a professional website showcasing the company's services, contact details, and information, with a clean, modern, and responsive design.
 
-Criação de uma identidade visual simples, adequada ao tema de reparações tecnológicas.
+## 🇬🇧 Development Process
+The website was created to practice the structure and design of modern web pages, focusing on:
 
-🇵🇹 Funcionalidades
+- Semantic and organized page layout  
+- Simple navigation between sections and pages  
+- Responsive design for all screen sizes  
+- Use of HTML5 and CSS3 for a modern, tech-inspired look  
+- Creation of a clean visual identity for a repair service company
 
-🏠 Página Inicial — Apresentação geral da empresa.
+## 🇬🇧 Features
+- 🌐 **Navigation**: Home, Services, About, Contacts  
+- 🛠️ **Services**: Overview of repair and maintenance services  
+- ℹ️ **About**: Company information and mission  
+- ✉️ **Contacts**: Contact details of the company  
+- 💻 Fully **responsive layout** for desktop and mobile devices
 
-🛠️ Serviços — Lista dos principais serviços de reparação e manutenção.
+## 🇬🇧 Demo
+View the website online here:  
+🌐 **[See Space Mobile Online](#)**
 
-ℹ️ Sobre — Informação sobre a empresa e os seus valores.
+**Carlos Alves — OFICINA, Escola Profissional © 2025**
 
-✉️ Contactos — Formas de contacto, incluindo telefone, email e localização.
-
-📱 Design Responsivo — O site adapta-se a diferentes dispositivos (computador, tablet e telemóvel).
-
-🇵🇹 Demonstração
-
-O website pode ser visualizado localmente abrindo o ficheiro index.html no navegador.
-Todas as páginas estão interligadas através do menu de navegação.
-
-🔗 Aceder ao site: https://a14714-oficina.infinityfree.me/fp02/?i=1
-
-🇵🇹 Tecnologias Utilizadas
-
-HTML5
-
-CSS3
-
-Font Awesome (ícones)
-
-🇬🇧 Description
-
-Space Mobile is a fictional website created using HTML5 and CSS3, representing a company that specializes in mobile phone repair and maintenance.
-The main goal is to simulate a professional and modern site that showcases the company's services, contact information, and mission.
-
-🇬🇧 Development Process
-
-The website was built as a classroom project to practice:
-
-Semantic structure and page organization in HTML.
-
-Content organization into sections (Home, Services, About, Contacts).
-
-Styling and layout design using CSS3.
-
-Creation of a responsive design for multiple devices.
-
-Development of a simple and professional visual identity for a tech repair company.
-
-🇬🇧 Features
-
-🏠 Home Page — General presentation of the company.
-
-🛠️ Services — List of main repair and maintenance services.
-
-ℹ️ About — Company information and core values.
-
-✉️ Contacts — Contact details including phone, email, and address.
-
-📱 Responsive Design — Fully adaptable to all screen sizes.
-
-🇬🇧 Demo
-
-The website can be viewed locally by opening the index.html file in your browser.
-All pages are connected through the navigation menu.
-
-🔗 View the website: https://a14714-oficina.infinityfree.me/fp02/?i=1
-
-🧑‍💻 Autor
-
-Carlos Alves
-OFICINA, Escola Profissional © 2025
