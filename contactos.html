@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Space Mobile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .pagina {
+            display: grid;
+            grid-template-areas:
+                "header"
+                "main"
+                "footer";
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0a0a23;
+            color: white;
+            padding: 15px 30px;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+
+        header nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            grid-area: main;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2e5cff;
+            margin-bottom: 30px;
+        }
+
+        .morada-box {
+            border: 2px solid #2e5cff;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #111;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .morada-box h3 {
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+
+        .morada-box p {
+            margin: 0 0 15px 0;
+            color: #ccc;
+        }
+
+        .morada-box iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .contactos-empresa {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contacto-item {
+            background: #111;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .contacto-item h3 {
+            margin: 0 0 10px 0;
+            color: #2e5cff;
+            flex: 1;
+            text-align: left;
+        }
+
+        .contacto-item p {
+            margin: 5px 0;
+            color: #ccc;
+            word-wrap: break-word;
+        }
+
+        .contacto-item i {
+            color: #ffffff;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #0a0a23;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .morada-box iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina">
+        <header>
+            <h1>Contactos</h1>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contactos.html">Contactos</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Contacta a nossa loja!</h2>
+
+            <div class="morada-box">
+                <h3>Morada</h3>
+                <p>R. Exemplo, 123<br>Lisboa, Portugal</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.083925028869!2d-9.139337184652337!3d38.71696397964256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331dc9a95c29%3A0x6ed8f4f34d5eaf06!2sPra%C3%A7a%20do%20Com%C3%A9rcio%2C%20Lisboa!5e0!3m2!1spt-PT!2spt!4v1760700000000!5m2!1spt-PT!2spt" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contactos-empresa">
+                <div class="contacto-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>contacto@spacemobile.pt</p>
+                </div>
+                <div class="contacto-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <p>+351 912 345 678</p>
+                </div>
+                <div class="contacto-item">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@spacemobile</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Space Mobile — Arranja o teu Telemóvel connosco.</p>
+        </footer>
+    </div>
+</body>
+</html>
