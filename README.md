@@ -4,6 +4,22 @@
 O **Space Mobile** é um website fictício de uma empresa de reparação e manutenção de telemóveis, desenvolvido com **HTML5** e **CSS3**.  
 O objetivo é simular um site profissional que apresenta os serviços, contactos e informações sobre a empresa, com um design moderno, limpo e totalmente responsivo.
 
+## 🇵🇹 Estrutura do Código
+
+O website é composto por várias páginas HTML, cada uma com header, main e footer, e estilos aplicados via CSS interno ou externo:
+
+index.html — Página inicial com apresentação da empresa.
+
+servicos.html — Lista e descrição dos serviços de reparação.
+
+sobre.html — Informações sobre a empresa e os seus valores.
+
+contactos.html — Formulário e informações de contacto.
+
+style.css — Estilos globais e responsivos para todas as páginas.
+
+O CSS utiliza flexbox e grid para criar layouts adaptáveis a diferentes dispositivos e tamanhos de ecrã.
+
 ## 🇵🇹 Processo de Criação
 O site foi criado para praticar a criação e estruturação de websites, com foco em:
 
@@ -29,6 +45,22 @@ O website pode ser visualizado online clicando neste link:
 # 🇬🇧 Description
 **Space Mobile** is a fictional website for a mobile phone repair company, built using **HTML5** and **CSS3**.  
 The goal is to simulate a professional website showcasing the company's services, contact details, and information, with a clean, modern, and responsive design.
+
+# 🇬🇧 Code Structure
+
+The website consists of multiple HTML pages, each with a header, main, and footer, and styles applied via internal or external CSS:
+
+index.html — Home page introducing the company.
+
+servicos.html — Page listing and describing repair services.
+
+sobre.html — Information about the company and its mission.
+
+contactos.html — Contact form and company details.
+
+style.css — Global and responsive styles for all pages.
+
+CSS uses flexbox and grid to create layouts that adapt to various devices and screen sizes.
 
 ## 🇬🇧 Development Process
 The website was created to practice the structure and design of modern web pages, focusing on:
